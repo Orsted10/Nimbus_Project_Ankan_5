@@ -1,4 +1,4 @@
-**Desi Library Management System**
+# **Desi Library Management System**
 
 *"Because remembering who took which book is too mainstream."*
 
@@ -27,8 +27,11 @@
 Built with lots of caffeine ☕ and 💻 many late nights debugging by:
 
 *Ankan* - Backend Logic & Pointer Wizardry
+
 *Protistha* - Database Structure & Variables
+
 *Shivansh* - Search Algorithms & Bug Hunting
+
 *Aditya* - Documentation & Viva Defense Squad
 
 **How to Compile & Run (Don't mess this up)**
