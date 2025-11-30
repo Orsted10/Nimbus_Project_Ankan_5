@@ -108,3 +108,9 @@ Search query (Title/Author): Alch
 Search Results:
 
 >> FOUND: [ID: 105] The Alchemist by Paulo Coelho
+
+<img width="598" height="365" alt="image" src="https://github.com/user-attachments/assets/e2a18d27-f72c-4104-8c17-1fe3ddc090f2" />
+
+---
+
+## System.out.printIn("Thank you for using our project - Ankan");
