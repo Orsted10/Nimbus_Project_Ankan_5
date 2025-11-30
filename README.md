@@ -8,19 +8,19 @@
 
 *Target: 100/100 Marks (Zero negotiation).*
 
-##### **Core Purpose:** The main purpose is to implement a Library Book Management System using C that handles cataloging, issuing, and returning books efficiently. The system is Desi style to interact with Indian Students more easily and friendly.
+**Core Purpose:** The main purpose is to implement a Library Book Management System using C that handles cataloging, issuing, and returning books efficiently. The system is Desi style to interact with Indian Students more easily and friendly.
 
 **Real-world Context:** Libraries are messy. Students forget to return books. Librarians lose their minds. We fixed it.
 
 ## **Key Tech Stack:**
 
-##### *C Language:* The grandfather of all languages. Basically a language which helped the upbringing of many more languages and being the backbone of all infrastructures.
+*C Language:* The grandfather of all languages. Basically a language which helped the upbringing of many more languages and being the backbone of all infrastructures.
 
-##### *Pointers:* Because we like living dangerously with memory addresses.
+*Pointers:* Because we like living dangerously with memory addresses.
 
-##### *Structs:* To keep our data organized (unlike our dorm rooms).
+*Structs:* To keep our data organized (unlike our dorm rooms).
 
-##### *Modular Programming:* 4 Source files + 4 Header files (Professional stuff). 
+*Modular Programming:* 4 Source files + 4 Header files (Professional stuff). 
 
 ## **The "Dream Team" (Credits)**
 
