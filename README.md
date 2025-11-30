@@ -4,7 +4,7 @@
 
 ---
 
-**Project Objective**
+## **Project Objective**
 
 *Target: 100/100 Marks (Zero negotiation).*
 
@@ -12,7 +12,7 @@
 
 **Real-world Context:** Libraries are messy. Students forget to return books. Librarians lose their minds. We fixed it.
 
-**Key Tech Stack:**
+## **Key Tech Stack:**
 
 *C Language:* The grandfather of all languages. Basically a language which helped the upbringing of many more languages and being the backbone of all infrastructures.
 
@@ -22,7 +22,7 @@
 
 *Modular Programming:* 4 Source files + 4 Header files (Professional stuff). 
 
-**The "Dream Team" (Credits)**
+## **The "Dream Team" (Credits)**
 
 Built with lots of caffeine ☕ and 💻 many late nights debugging by:
 
@@ -34,7 +34,7 @@ Built with lots of caffeine ☕ and 💻 many late nights debugging by:
 
 *Aditya* - Documentation & Viva Defense Squad
 
-**How to Compile & Run (Don't mess this up)**
+## **How to Compile & Run (Don't mess this up)**
 
 *Since we used Modular Programming (fancy, right?), you can't just hit "Run" on main.c. You have to link the object files.*
 
@@ -54,7 +54,7 @@ Launch the beast:
 
 *./library_app*
 
-**Output & Usage Guide**
+## **Output & Usage Guide**
 
 **1. The Main Menu**
 
