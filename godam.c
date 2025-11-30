@@ -24,18 +24,22 @@ void nayiKitabDalo(Kitab *shelf){
         printf("\nArre bas kar bhai! Godam full hai (Array Overflow)\n");
         return;
     }
-    // Pointer ka use karke naya slot access kar rahe
     Kitab *nayaMaal=(shelf+bookCount);
     printf("\n--- Nayi Kitab Entry ---\n");
     printf("ID batao: ");
     scanf("%d",&nayaMaal->id);
-    // Buffer clear karna padega nahi to gets/fgets ro dega
-    fflush(stdin); 
+    // --- THE FIX IS HERE ---
+    // scanf int padhta hai par 'Enter' chhod deta hai. 
+    // Ye loop us 'Enter' ko kha jayega.
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF); 
+    // -----------------------
     printf("Kitab ka naam kya hai: ");
-    fgets(nayaMaal->naam,sizeof(nayaMaal->naam),stdin); // Haan I know gets unsafe hai par student life me chalta hai
+    // Using gets is risky, but if you must:
+    fgets(nayaMaal->naam,sizeof(nayaMaal->naam),stdin); 
     printf("Lekhak (Author) kaun hai: ");
     fgets(nayaMaal->likhneWala,sizeof(nayaMaal->likhneWala),stdin);
-    nayaMaal->availableHai=1; // By default available hai
+    nayaMaal->availableHai=1; 
     strcpy(nayaMaal->kiskePaasHai,"Koi Nahi");
     bookCount++;
     printf("\n>> Badhai ho! Kitab add ho gayi.\n");

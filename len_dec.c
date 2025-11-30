@@ -4,20 +4,22 @@ void kitabUthao(Kitab *shelf){
     int targetID;
     printf("\nKaunsi kitab chahiye (ID batao): ");
     scanf("%d",&targetID);
-    // Jugaad function call karke index dhundo
+    // --- THE FIX IS HERE ---
+    // Consume the newline left by scanf
+    int c;
+    while ((c = getchar()) != '\n' && c != EOF);
+    // -----------------------
     int index=dhundoKitabIDSe(shelf,targetID);
     if(index==-1){
         printf(">> Bhai aisi koi kitab nahi hai apne paas.\n");
     }else{
-        // Pointer set kar lo target book pe
         Kitab *ptr=(shelf+index);
         if(ptr->availableHai==0){
             printf(">> Sorry boss, ye book already %s le gaya hai.\n",ptr->kiskePaasHai);
         }else{
-            fflush(stdin);
             printf("Apna naam batao: ");
-            fgets(ptr->kiskePaasHai,sizeof(ptr->kiskePaasHai),stdin);
-            ptr->availableHai=0; // Ab ye available nahi rahi
+            gets(ptr->kiskePaasHai); // Now this will actually wait for input!
+            ptr->availableHai=0;
             printf(">> Le jao bhai, par time pe wapas kar dena.\n");
         }
     }
