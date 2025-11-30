@@ -18,7 +18,7 @@ void kitabUthao(Kitab *shelf){
             printf(">> Sorry boss, ye book already %s le gaya hai.\n",ptr->kiskePaasHai);
         }else{
             printf("Apna naam batao: ");
-            gets(ptr->kiskePaasHai); // Now this will actually wait for input!
+            fgets(ptr->kiskePaasHai,sizeof(ptr->kiskePaasHai),stdin); // Now this will actually wait for input!
             ptr->availableHai=0;
             printf(">> Le jao bhai, par time pe wapas kar dena.\n");
         }
