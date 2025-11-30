@@ -58,6 +58,8 @@ Launch the beast:
 
 **1. The Main Menu**
 
+<img width="854" height="307" alt="image" src="https://github.com/user-attachments/assets/0aa40c3f-d607-43b2-a452-88fdc0091e97" />
+
 (Looks professional, works like a charm, with desi masala)
 
 === DESI LIBRARY MANAGEMENT ===
@@ -83,6 +85,8 @@ Lekhak (Author) kaun hai: Paulo Coelho
 
 >> Badhai ho! Kitab add ho gayi.
 
+<img width="761" height="413" alt="image" src="https://github.com/user-attachments/assets/d3eaf61f-b630-41e7-9550-7c646657cd14" />
+
 **3. Issuing a Book (len_den.c logic)**
 
 Checks availability instantly. No fake promises.
@@ -92,6 +96,8 @@ Kaunsi kitab chahiye (ID batao): 105
 Apna naam batao: Aditya
 
 >> Le jao bhai, par time pe wapas kar dena.
+
+<img width="564" height="348" alt="image" src="https://github.com/user-attachments/assets/e9039f24-60bc-43c7-a47f-1a9b73e15f66" />
 
 **4. Search Feature (helper.c logic)**
 
