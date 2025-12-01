@@ -49,7 +49,7 @@ void saveSabKuch(Kitab shelf[]){
     printf(">> Data saved successfully. Bijli gayi to bhi tension nahi.\n");
 }
 // ======================= LOAD FROM FILE ===========================
-// Program start hote hi ye function check karta hai ki purana "library_data.txt" hai ya nahi.
+// Program start hotee hi ye function check karta hai ki purana "library_data.txt" hai ya nahi.
 // Agar hai to usse sari kitabein + history wapas memory me load kar leta hai.
 void loadSabKuch(Kitab shelf[]){
     FILE *f=fopen("library_data.txt","r");

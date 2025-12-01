@@ -16,7 +16,7 @@ int main(){
     // Array of structs, jaha har index ek kitab ka record hold karega
     Kitab libraryShelf[MAX_KITABS];
     int choice;
-    int running=1; // Flag jis se while loop control hoga
+    int running=1; // Flag jis sai while loop control hoga
     // Step 1: Security check
     if(!loginSystem()){
         // Galat password dala, to direct exit. Data safe.
